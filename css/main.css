@@ -1,34 +1,47 @@
  body{
-margin: 0;	 
+    margin: 0;	 
 	 
  }
- 
+
+ h5{
+
+
+ }
+
  .bg{
 	
 	 /* Set a specific height */
     height: 700px; 
 	 
  }
- 
+.content{
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 24px;
+	font-size: 40px;
+	text-align: center;
+	height: 150px;
+    margin-top: 100px;
+}
+
  .bg-1 { 
     /* The image used */
     background-image: url("../img/1.jpg");
-	height: 1000px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 1000px; 
 }
 
-.content{
-	background-color: #888888;
-	color: #FFFFFF;
-	padding: 24px;
-	font-size: 32px;
-	text-align: center;
-	height: 150px;
-}
+.content-1{
 
+
+}
 
 .bg-2 { 
     /* The image used */
-    background-image: url("../img/2.jpg");
+    background-image: url("../img/Sabs.jpg");
 
     /* Set a specific height */
     height: 600px; 
@@ -40,6 +53,37 @@ margin: 0;
     background-size: cover;
 }
 
+
+
+.bg-3 { 
+    /* The image used */
+    background-image: url("../img/4.jpg");
+
+    /* Set a specific height */
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.bg-4 { 
+    /* The image used */
+    background-image: url("../img/3.jpg");
+
+    /* Set a specific height */
+    height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg{
 		  /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -47,3 +91,4 @@ margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
