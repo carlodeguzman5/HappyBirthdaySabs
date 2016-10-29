@@ -1,12 +1,9 @@
  body{
     margin: 0;	 
-	 
+    font-family: 'Noto Sans', sans-serif;   
  }
 
- h5{
 
-
- }
 
  .bg{
 	
@@ -20,7 +17,7 @@
 	padding: 24px;
 	font-size: 40px;
 	text-align: center;
-	height: 250px;
+	height: 400px;
     margin-top: 100px;
 }
 
@@ -35,13 +32,20 @@
 }
 
 .content-1{
-
-
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    height: 250px;
 }
 
 .bg-2 { 
     /* The image used */
     background-image: url("../img/2.jpg");
+}
+
+.content-2{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    height: 250px;
 }
 
 .bg-3 { 
@@ -64,11 +68,46 @@
     background-image: url("../img/5.jpg");
 }
 
+.content-5{
+    height: 1200px;
+}
+
 .bg-6 { 
     /* The image used */
     background-image: url("../img/6.jpg");
 }
 
+.content-6{
+    height: 600px;
+}
+
+.bg-7 { 
+    /* The image used */
+    background-image: url("../img/7.jpg");
+}
+
+.content-7{
+    height: 1600px;
+}
+
+.bg-8 { 
+    /* The image used */
+    background-image: url("../img/7.jpg");
+}
+
+.content-8{
+    height: 800px;
+}
+
+
+.bg-9 { 
+    /* The image used */
+    background-image: url("../img/9.jpg");
+}
+
+.content-9{
+
+}
 
 .bg{
 		  /* Create the parallax scrolling effect */
@@ -92,3 +131,8 @@
     z-index: 9999;
     background: url(../img/ico_loading.gif) center no-repeat #fff;
 }
+
+ h5{
+    font-family: 'Pacifico', cursive;
+
+ }
