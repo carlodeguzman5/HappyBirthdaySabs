@@ -53,13 +53,17 @@
     background-image: url("../img/3.jpg");
 }
 
+.content-3{
+    height: 1000px;
+}
+
 .bg-4 { 
     /* The image used */
     background-image: url("../img/4.jpg");
 }
 
 .content-4{
-	height: 420px;
+	height: 1000px;
 	font-size: 32px;
 }
 
@@ -69,7 +73,7 @@
 }
 
 .content-5{
-    height: 1200px;
+    height: 1350px;
 }
 
 .bg-6 { 
@@ -92,11 +96,11 @@
 
 .bg-8 { 
     /* The image used */
-    background-image: url("../img/7.jpg");
+    background-image: url("../img/8.jpg");
 }
 
 .content-8{
-    height: 800px;
+    height: 1000px;
 }
 
 
